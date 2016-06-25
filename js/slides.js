@@ -24,9 +24,10 @@ $(function(){
       $('.slides > section').each(function(index, section){
         var $section = $(section),
             file = $section.data('html');
-        $.get(file, function(rawHtml) {
-          $section.html(rawHtml);
-        });
+        // $.get(file, function(rawHtml) {
+        //   $section.html(rawHtml);
+        // });
+        $section.load(file);
       });
     }();//execute immediately
 
