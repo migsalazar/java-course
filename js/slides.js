@@ -9,28 +9,26 @@ $(function(){
       center: true,
       touch: true,
       loop: false,
+      transition: 'convex',
       mouseWheel: true,
       hideAddressBar: true,
       previewLinks: true,
-      transitionSpeed: 'default'
-    },
-    plugins = {
+      transitionSpeed: 'default',
+      zoomKey: 'shift',
       dependencies: [
-          { src: 'revealjs/plugin/highlight/highlight.js', async: true },
-          { src: 'revealjs/plugin/zoom-js/zoom.js', async: true }
+          { src: '../revealjs/plugin/highlight/highlight.js', async: true },
+          { src: '../revealjs/plugin/zoom-js/zoom.js', async: true }
       ]
-    },
+    }
     injectSections = function() {
       $('.slides > section').each(function(index, section){
         var $section = $(section),
             file = $section.data('html');
-        // $.get(file, function(rawHtml) {
-        //   $section.html(rawHtml);
-        // });
-        $section.load(file);
+        if(file) {
+          $section.load(file);
+        }
       });
     }();//execute immediately
 
-  Reveal.initialize(revealConfig)
-  Reveal.configure(plugins);
+  Reveal.initialize(revealConfig);
 });
