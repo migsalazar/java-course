@@ -16,6 +16,8 @@ $(function(){
       transitionSpeed: 'default',
       zoomKey: 'shift',
       dependencies: [
+          { src: '../revealjs/plugin/markdown/marked.js', async: false, condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '../revealjs/plugin/markdown/markdown.js', async: false, condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
           { src: '../revealjs/plugin/highlight/highlight.js', async: true },
           { src: '../revealjs/plugin/zoom-js/zoom.js', async: true }
       ]

@@ -1,0 +1,14 @@
+
+name: Mig Salazar
+author: Mig Salazar
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+
+pigments: true
+
+gems:
+  - jekyll-gist
