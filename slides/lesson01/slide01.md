@@ -6,5 +6,4 @@
 
 ## Sesiones: 6 sesiones de 9:00 a.m. a 1:00 p.m.
 
-
 ## Instructor: Miguel Salazar

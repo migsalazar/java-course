@@ -1,0 +1,5 @@
+
+example_page:
+  title: "Example"
+  url: "example_page"
+  link: "<a href='ruta'>ruta</a>"

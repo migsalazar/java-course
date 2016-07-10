@@ -1,14 +1,66 @@
+url: http://127.0.0.1:4000
+baseurl: ""
+topnav_title: Curso de Java
+site_title:
+company_name: Mig Salazar
+company_url: http://migsalazar.com
+github_editme_path:
 
-name: Mig Salazar
-author: Mig Salazar
+host: 127.0.0.1
+port: 4000
 
+exclude:
+  - _site
+  - _drafts/
+  - .idea/
+
+feedback_email: migsalazar.com
+#feedback_disable: true
+#feedback_text: "Need help?"
+#feedback_link: "http://helpy.io/"
+# change feedback link behaviour if you use a support ticketing system or something elses
+
+highlighter: rouge
 markdown: kramdown
 kramdown:
-  input: GFM
-  hard_wrap: false
-highlighter: rouge
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouges
 
-pigments: true
+collections:
+  tooltips:
+    output: false
+# collection declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output.
 
-gems:
-  - jekyll-gist
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      comments: true
+      search: true
+      sidebar: home_sidebar
+  -
+    scope:
+      path: ""
+      type: "tooltips"
+    values:
+      layout: "page"
+      comments: true
+      search: true
+      tooltip: true
+
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+      search: true
+      sidebar: tags_sidebar
+
+# these are defaults used for the frontmatter for these file types

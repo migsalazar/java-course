@@ -1,0 +1,30 @@
+entries:
+- title: sidebar
+  product:
+  version:
+  folders:
+
+  - title: Introducción
+    output: web, pdf
+    folderitems:
+
+    - title: Curso
+      url: /
+      type: homepage
+      output: web, pdf
+
+    - title: Contenido
+      url: /docs/
+      output: web, pdf
+
+    - title: Sample page
+      url: /docs/
+      output: web, pdf
+
+  - title: Java
+    output: web, pdf
+    folderitems:
+
+    - title: Identificadores
+      url: /docs/
+      output: web, pdf
