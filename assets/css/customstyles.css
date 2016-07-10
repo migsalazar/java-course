@@ -1175,3 +1175,11 @@ div.box.box1 {
         width: 100%;
     }
 }
+
+/******added***********/
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #ffffff;
+    font-weight: bold;
+    background-color: transparent !important;
+}
