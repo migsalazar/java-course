@@ -4,46 +4,35 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ "/assets/js/revealjs/css/reveal.css" | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ "/assets/js/revealjs/css/theme/black.css" | prepend: site:baseurl }}">
-    <title>java-course</title>
-
+    <link rel="stylesheet" href="/assets/revealjs/css/reveal.css">
+    <link rel="stylesheet" href="/assets/revealjs/css/theme/black.css">
+    <link rel="stylesheet" href="/assets/css/slides.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="/assets/js/html5shiv.js"></script>
       <script src="/assets/js/respond.min.js"></script>
     <![endif]-->
-
-
+    <title>java-course</title>
   </head>
   <body>
     <div class="reveal">
         <div class="slides">
-
-          <!-- slide1 -->
           <section>
             <section>
-              <h2>Curso de Java</h2>
-              <h3>Básico e intermedio</h3>
+              <h1>Curso de Java</h1>
+              <h2>Básico e intermedio</h2>
             </section>
-            <section data-markdown="lesson01/slide01.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+            <section data-markdown="lessons/slide01.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
           </section>
-
-          <!-- slide2 -->
-          <section data-markdown="lesson01/slide02.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
-          <!-- slide3 -->
-          <section data-markdown="lesson01/slide03.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
-          <!-- slide4 -->
-          <section data-markdown="lesson01/slide04.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
-          <!-- slide5 -->
-          <section data-markdown="lesson01/slide05.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
-
-
+          <section data-markdown="lessons/slide02.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+          <section data-markdown="lessons/slide03.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+          <section data-markdown="lessons/slide04.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+          <section data-markdown="lessons/slide05.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
         </div>
     </div>
-    <script src="/assets/js/jquery-1.10.2.min.js"></script>
+    <script src="/assets/js/jquery.min.js"></script>
     <script src="/assets/js/head.min.js"></script>
     <script src="/assets/revealjs/js/reveal.js"></script>
-    <script src="assets/js/slides.js"></script>
+    <script src="/assets/js/slides.js"></script>
   </body>
 </html>

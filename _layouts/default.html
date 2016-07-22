@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<head>
+<html>
+  <head>
     {% include head.html %}
     <script>
         $(document).ready(function() {
-            // Initialize navgoco with default options
             $("#mysidebar").navgoco({
                 caretHtml: '',
                 accordion: true,
@@ -19,19 +19,15 @@
                     easing: 'swing'
                 }
             });
-
             $("#collapseAll").click(function(e) {
                 e.preventDefault();
                 $("#mysidebar").navgoco('toggle', false);
             });
-
             $("#expandAll").click(function(e) {
                 e.preventDefault();
                 $("#mysidebar").navgoco('toggle', true);
             });
-
         });
-
     </script>
     <script>
         $(function () {
@@ -39,38 +35,30 @@
         })
     </script>
     {% if page.datatable == true %}
-    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.5/css/jquery.dataTables.css">
-    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.5/js/jquery.dataTables.js"></script>
-    <script>
-        $(document).ready(function(){
-
-            $('table.datatable').DataTable( {
-                        paging: false,
-                        stateSave: true
-                    }
-            );
-    </script>
+      <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.5/css/jquery.dataTables.css">
+      <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.5/js/jquery.dataTables.js"></script>
+      <script>
+          $(document).ready(function(){
+              $('table.datatable').DataTable({
+                  paging: false,
+                  stateSave: true
+              });
+          });
+      </script>
     {% endif %}
-
-</head>
-<body>
-{% include topnav.html %}
-<!-- Page Content -->
-<div class="container">
-    <div class="col-lg-12">&nbsp;</div>
-    <!-- Content Row -->
-    <div class="row">
-        <!-- Sidebar Column -->
+  </head>
+  <body>
+    {% include topnav.html %}
+    <div class="container">
+      <div class="col-lg-12">&nbsp;</div>
+      <div class="row">
         <div class="col-md-3">
-
           {% include sidebar.html %}
-    <!-- Content Column -->
-    <div class="col-md-9">
-        {{content}}
-    </div>
-    <!-- /.row -->
-</div>
-<!-- /.container -->
+          <div class="col-md-9">
+              {{content}}
+          </div>
+        </div>
+      </div>
     </div>
     <script>
     // jQuery(function ($) {
@@ -78,5 +66,5 @@
     //             .annotator('setupPlugins', {tokenUrl: 'http://example.com/api/token'})
     // });
     </script>
-</body>
+  </body>
 </html>

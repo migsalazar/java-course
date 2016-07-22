@@ -1,0 +1,9 @@
+.reveal p {
+  text-align: left;
+}
+
+.reveal div.image {
+  text-align: center !important;
+  max-width: none;
+  max-height: none;
+}

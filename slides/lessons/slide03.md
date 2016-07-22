@@ -1,4 +1,4 @@
-# Introducción a Java
+## Introducción a Java
 
 Java es un lenguaje de programación de alto nivel y de propósito general caracterizado principalmente por lo siguiente:
 
@@ -10,4 +10,4 @@ Java es un lenguaje de programación de alto nivel y de propósito general carac
 - Robusto
 - Seguro
 
-*A white paper - James Gosling, Henry McGilton, May 1996
+*A white paper - James Gosling, Henry McGilton, May 1996*
