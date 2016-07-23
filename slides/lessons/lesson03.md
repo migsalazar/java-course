@@ -36,15 +36,15 @@ El mismo operador de igualdad, para el caso anterior, también podría escribirs
 ## Operadores
 ### Asignación
 
-`a+=b`:	Suma `a` y `b` y guarda el resultado en `a
+`a += b`:	Suma **a** y **b** y guarda el resultado en **a**
 
-`a-=b`:	A la variable `a` se le resta `b` y el resultado se guarda en `a`
+`a -= b`:	A la variable **a** se le resta **b** y el resultado se guarda en **a**
 
-`a/=b`:	Se divide la variable `a` entre la variable `b` y el resultado se guarda en `a`
+`a /= b`:	Se divide la variable **a** entre la variable **b** y el resultado se guarda en **a**
 
-`a*=b`:	Se multiplican `a` por `b` y el resultado se guarda en `a`
+`a *= b`:	Se multiplican **a** por **b** y el resultado se guarda en **a**
 
-`a%=b`:	Se divide la variable `a` entre la variable `b` y se guarda el residuo en `a`
+`a %= b`:	Se divide la variable **a** entre la variable **b** y se guarda el residuo en **a**
 
 ----------
 
