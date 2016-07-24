@@ -1,4 +1,4 @@
-## Identificadores
+### Identificadores
 
 Los **identificadores** son nombres que representan a una variable, método, clase o interface de un programa.
 
@@ -9,9 +9,9 @@ Los identificadores siguen las siguientes reglas:
 -  No se puede usar una **palabra reservada** de Java para denotar un identificador.
 -  Java es sensible a mayúsculas y minúsculas.
 
-----------
+:----------
 
-## Identificadores
+### Reglas
 
 Ejemplos válidos:
 
@@ -21,17 +21,16 @@ Ejemplos no válidos
 
 `2numero`  `/variable`  `%total`
 
-----------
+:----------
 
-## Identificadores
+### Tipado
 
 Java es un lenguaje de **tipado fuerte**, lo cual significa que no se permiten violaciones de los tipos de datos.
 
 Es decir, dado el valor de una variable de un tipo en concreto, no se podrá usar el valor de dicha variable como otro tipo.
 
-----------
+:----------
 
-## Identificadores
 ### Tipos de datos
 
 - Enteros
@@ -39,10 +38,9 @@ Es decir, dado el valor de una variable de un tipo en concreto, no se podrá usa
 - Caracter
 - Booleano
 
-----------
+:----------
 
-## Identificadores
-### Enteros
+### Tipos de datos - Enteros
 
 | Typo de dato  | Tamaño (bytes)  | Rengo de valores  |
 | ------------- |-----------------|-------------------|
@@ -51,28 +49,25 @@ Es decir, dado el valor de una variable de un tipo en concreto, no se podrá usa
 | int           | 4               | -2147483648 a 2147483647 |
 | long          | 8               | -9223372036854775808 a 9223372036854775807 |
 
-----------
+:----------
 
-## Identificadores
-### Punto flotante
+### Tipos de datos - Punto flotante
 
 | Typo de dato  | Tamaño (bytes)  | Rengo de valores            |
 | ------------- |-----------------|-----------------------------|
 | float         | 4               | ± 3.4x10-38 a ± 3.4x1038    |
 | double        | 5               | ± 1.8x10-308 a ± 1.8x10308  |
 
-----------
+:----------
 
-## Identificadores
-### Caracter
+### Tipos de datos - Caracter
 
 El tipo de datos especializado en caracteres es el `char`.
 
 Java utiliza el código *Unicode* de 16 bits a diferencia de la mayor parte de lenguajes clásicos, como tal es el caso de C y C++, que utilizan *ASCII* de 8 bits.
 
-----------
+:----------
 
-## Identificadores
-### Boleano
+### Tipos de datos - Boleano
 
 Java contiene el tipo de dato **boolean**, en el cuál solo se pueden almacenar los valores `true` o `false`.
