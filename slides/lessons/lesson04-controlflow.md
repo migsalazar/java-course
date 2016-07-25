@@ -116,26 +116,6 @@ En ocasiones se requerirá evaluar muchas condiciones a la vez y ésta última e
   <img class="stretch no-border" data-src="img/switch.png"/>
 </div>
 
-<hr class="breakline">
-
-<div class="import-bs"></div>
-
-```java
-  switch(variable int o char){
-  	case const1:
-  	 //sentences
-  	break;
-  	case const2:
-  	 //sentences
-  	break;
-  	case const3:
-  	 //sentences
-  	break;
-  	default:
-  	 //sentences
-  };
-```
-
 :-------------------------------------------------------------------------------
 
 <hr class="breakline">
