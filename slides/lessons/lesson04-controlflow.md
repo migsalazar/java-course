@@ -335,7 +335,7 @@ La iteración, es decir, las tareas dentro de ese bloque de código no necesitan
       continue;
 
     //Cuando i sea igual a 5 no se imprimirá el valor de i en la consola
-    System.out.println( i );
+    System.out.println(i);
   }
 ```
 
