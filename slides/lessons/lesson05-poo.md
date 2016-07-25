@@ -164,4 +164,115 @@ Los modificadores de acceso determinan que otras clases pueden usar una propieda
 
 ### Métodos constructores
 
-Penddiente
+Un método constructor es un método que se encuentra dentro de un objeto y está diseñado especialmente para asegurar la correcta creación del objeto.
+
+Al escribir la palabra reservada `new`, en tiempo de ejecución, se llama al constructor.
+
+:-------------------------------------------------------------------------------
+
+### Métodos constructores (ejemplo)
+
+```java
+  public class Usuario{
+  	String correo;
+
+  	public Usuario(string correo){
+  			this.correo = correo;
+  	}
+  }
+```
+
+<hr class="breakline">
+
+```java
+Usuario usuario = new Usuario("mig.salazars@gmail.com");
+```
+
+:-------------------------------------------------------------------------------
+
+### Métodos estáticos
+
+En algunas ocasiones se necesitará, poseer el comportamiento de una clase sin tener que instanciarla. Los métodos estáticos nos proveen de ésta funcionalidad.
+
+Para llamar un método estático de una clase, bastará con llamar a la clase seguida del método: `Clase.metodoEstatico()`.
+
+:-------------------------------------------------------------------------------
+
+### Métodos estáticos (ejemplo)
+
+```java
+  public class Usuario {
+
+    public static void mensaje()  {
+      return "Este mensaje será el mismo para todos los usuarios";
+    }
+
+  }
+```
+
+<hr class="breakline" >
+
+```java
+  Usuario.mensaje();
+```
+
+:-------------------------------------------------------------------------------
+
+### Métodos get-set
+
+A menudo, necesitaremos ocultar propiedades de las clases. Para esto, debemos tener métodos que nos permitan inicializar las propiedades ocultas.
+
+No es necesario que estos métodos se les llame get y set. Sin embargo, por convención se utiliza de ésta manera.
+
+:-------------------------------------------------------------------------------
+
+### Métodos get-set (ejemplo)
+
+```java
+  public class Curso {
+  	private String nombre;
+
+  	public void setNombre(String nombre) {
+  		this.nombre = nombre;
+  	}
+
+  	public String getNombre() {
+  		return this.nombre;
+  	}
+
+  	public void toString() {
+  		System.out.println("Bienvenido al CURSO: " + getNombre());
+  	}
+  }
+```
+
+:-------------------------------------------------------------------------------
+
+### Sobrecarga de métodos
+
+En ocasiones será funcional poseer métodos con el mismo nombre, en la misma clase.
+
+Esto será posible siempre y cuando se tengan diferentes parámetros.
+
+:-------------------------------------------------------------------------------
+
+### Sobrecarga de métodos (ejemplo)
+
+```java
+  public class Operaciones
+  {
+    public int cuadrado(int n) {
+      return n*n;
+    }
+
+    public float cuadrado(float n) {
+      return n*n;
+    }
+  }
+```
+
+:-------------------------------------------------------------------------------
+
+### Ejercicios
+
+Pendiente
