@@ -252,7 +252,8 @@ Si se conoce la cantidad exacta de iteraciones (no solo en número, si no tambi�
   //Se inicializa la variable i en cero
   //Se evalúa la condición, si es verdadera se ejecutan las instrucciones entre llaves
   //Al terminar, se incrementa en uno
-  //Se repite hasta que la condición i<10 sea falsa. En ese momento el flujo del programa sigue su curso.
+  //Se repite hasta que la condición i<10 sea falsa.
+  //En ese momento el flujo del programa sigue su curso.
   for(int i = 0; i<10 ; i++)
   {
     System.out.println(i);
@@ -313,9 +314,12 @@ for(int i = 0; i < 10 ; i++) {
 	if( i == 5)
 	break;
 }
+//El for se detendrá cuando i sea igual a 5,
+//dado que existe un condicional el cual si es verdadero
+//se ejecuta una instrucción break
 ```
 
-//El for se detendrá cuando i sea igual a 5, dado que //existe un condicional el cual si es verdadero se //ejecuta una instrucción break
+
 
 :-------------------------------------------------------------------------------
 
