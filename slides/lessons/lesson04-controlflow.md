@@ -4,7 +4,7 @@ Las instrucciones en un programa se ejecutan una después de otra (en sentido es
 
 Diferentes instrucciones permiten indicar que la siguiente instrucción a una anterior, al ejecutarse, tal vez no sea la siguiente secuencia
 
-:----------
+:-------------------------------------------------------------------------------
 
 ### Condicional
 
@@ -13,15 +13,25 @@ Las instrucciones de control condicional son tres:
 - if / else
 - switch
 
-:----------
+:-------------------------------------------------------------------------------
 
 ### Condicional - if
 
+La sentencia `if` es la mas básica estructura de control.
 
+Esta sentencia le indica al programa que debe ejecutarse cierta porción de código siempre y cuando alguna condición evaluada sea verdadera.
 
-:----------
+:-------------------------------------------------------------------------------
 
-### Condicional - if (Sintaxis)
+### Condicional - if (sintaxis)
+
+<div class="image">
+  <img class="stretch no-border" data-src="img/if-else.png"/>
+</div>
+
+<hr class="breakline">
+
+<div class="import-bs"></div>
 
 ```java
   if(condicion)
@@ -30,9 +40,9 @@ Las instrucciones de control condicional son tres:
   }
 ```
 
-:----------
+:-------------------------------------------------------------------------------
 
-### Condicional - if (Ejemplo)
+### Condicional - if (ejemplo)
 
 ```java
   if(a == b) {
@@ -40,9 +50,17 @@ Las instrucciones de control condicional son tres:
   }
 ```
 
-:----------
+:-------------------------------------------------------------------------------
 
-### Condicional - if / else (Sintaxis)
+### Condicional - if / else (sintaxis)
+
+<div class="image">
+  <img class="stretch no-border" data-src="img/if-else.png"/>
+</div>
+
+<hr class="breakline">
+
+<div class="import-bs"></div>
 
 ```java
   if(condicion) {
@@ -52,7 +70,10 @@ Las instrucciones de control condicional son tres:
   	//sentences
   }
 ```
-#### Ejemplo
+
+:-------------------------------------------------------------------------------
+
+### Condicional - if / else (ejemplo)
 
 ```java
   if(a == b) {
@@ -63,7 +84,9 @@ Las instrucciones de control condicional son tres:
   }
 ```
 
-### Anidaciones
+:-------------------------------------------------------------------------------
+
+### Condicional - Anidaciones if / else
 
 ```java
   if(a == b) {
@@ -79,15 +102,45 @@ Las instrucciones de control condicional son tres:
   }
 ```
 
-:----------
+:-------------------------------------------------------------------------------
 
 ### Condicional - switch
 
-En ocasiones se requerirá evaluar muchas condiciones a la vez y ésta última estará en función de una sola variable. En estos casos, es más óptimo elegir por la instrucción `switch`.
+En ocasiones se requerirá evaluar muchas condiciones a la vez y ésta última estará en función de una sola variable. En estos casos, es más óptimo elegir la instrucción `switch`.
 
-:----------
+:-------------------------------------------------------------------------------
 
-### Condicional - switch (Sintaxis)
+### Condicional - switch (sintaxis)
+
+<div class="image">
+  <img class="stretch no-border" data-src="img/switch.png"/>
+</div>
+
+<hr class="breakline">
+
+<div class="import-bs"></div>
+
+```java
+  switch(variable int o char){
+  	case const1:
+  	 //sentences
+  	break;
+  	case const2:
+  	 //sentences
+  	break;
+  	case const3:
+  	 //sentences
+  	break;
+  	default:
+  	 //sentences
+  };
+```
+
+:-------------------------------------------------------------------------------
+
+<hr class="breakline">
+
+<div class="import-bs"></div>
 
 ```java
   switch(variable int o char){
@@ -105,9 +158,9 @@ En ocasiones se requerirá evaluar muchas condiciones a la vez y ésta última e
   };
 ```
 
-:----------
+:-------------------------------------------------------------------------------
 
-### Condicional - switch (Ejemplo)
+### Condicional - switch (ejemplo)
 
 ```java
   switch(a)
@@ -130,14 +183,14 @@ En ocasiones se requerirá evaluar muchas condiciones a la vez y ésta última e
   }
 ```
 
-:----------
+:-------------------------------------------------------------------------------
 
-### Condicional - switch (Reglas)
+### Condicional - switch (reglas)
 
 - Solo se puede usar como variable de condición, una variable de tipo entero o de tipo char.
 - Los valores a condicionar sobre las variables de tipo char, deben ir con comillas simples `'valor'`.
 
-:----------
+:-------------------------------------------------------------------------------
 
 ### Ciclos
 
@@ -147,7 +200,7 @@ Las estructuras de control de repetición, son un mecanismo para ejecutar una o 
 - `while`
 - `do-while`
 
-:----------
+:-------------------------------------------------------------------------------
 
 ### Ciclos - while
 
@@ -161,14 +214,22 @@ Generalmente la utilizaremos cuando se desconozca la cantidad de iteraciones a p
 - El incremento (o decremento) con el que se modifica la variable de control cada vez que pasa por el ciclo.
 - La condición de continuación del ciclo.
 
-:----------
+:-------------------------------------------------------------------------------
 
-### Ciclos - while (Sintaxis)
+### Ciclos - while (sintaxis)
 
+<div class="import-bs"></div>
 
-:----------
+```java
+while (condición)
+{
+	//tasks
+}
+```
 
-### Ciclos - while (Ejemplo)
+:-------------------------------------------------------------------------------
+
+### Ciclos - while (ejemplo)
 
 ```java
   int a = 1;
@@ -184,15 +245,17 @@ Generalmente la utilizaremos cuando se desconozca la cantidad de iteraciones a p
   }
 ```
 
-:----------
+:-------------------------------------------------------------------------------
 
 ### Ciclos - for
 
 Si se conoce la cantidad exacta de iteraciones (no solo en número, si no también conocida dentro de una variable) generalmente se utilizará ésta expresión.
 
-:----------
+:-------------------------------------------------------------------------------
 
-### Ciclos - for (Sintaxis)
+### Ciclos - for (sintaxis)
+
+<div class="import-bs"></div>
 
 ```java
   for (inicialización; condición; incremento)
@@ -201,9 +264,9 @@ Si se conoce la cantidad exacta de iteraciones (no solo en número, si no tambi�
   }
 ```
 
-:----------
+:-------------------------------------------------------------------------------
 
-### Ciclos - for (Ejemplo)
+### Ciclos - for (ejemplo)
 
 ```java
   //Se inicializa la variable i en cero
@@ -216,15 +279,17 @@ Si se conoce la cantidad exacta de iteraciones (no solo en número, si no tambi�
   }
 ```
 
-:----------
+:-------------------------------------------------------------------------------
 
 ### Ciclos - do-while
 
 El `do-while` resulta muy similar al `while`, sin embargo, el `do-while` asegura que el bloque de código a repetir se ejecutará **por lo menos una vez**.
 
-:----------
+:-------------------------------------------------------------------------------
 
-## Ciclos - do-while (Sintaxis)
+## Ciclos - do-while (sintaxis)
+
+<div class="import-bs"></div>
 
 ```java
 do {
@@ -232,29 +297,37 @@ do {
 } while(condicion);
 ```
 
-:----------
+:-------------------------------------------------------------------------------
 
-### Ciclos - do-while (Ejemplo)
+### Ciclos - do-while (ejemplo)
 
-*Pendiente*
+```java
+  int i = 0;
 
-:----------
+  do {
+    System.out.println("El valor de i es: " + i);
+    i++;
+  } while(i <= 10);
+//output: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+```
 
-### Ramificaciones
+:-------------------------------------------------------------------------------
+
+### Flujo alterno
 
 Existen instrucciones que nos servirán para establecer flujos que *rompen* con las reglas de las estructuras de control.
 
-:----------
+:-------------------------------------------------------------------------------
 
-### Ramificaciones - BREAK
+### Flujo alterno - break
 
+Es utilizada cuando se requiere detener por completo un ciclo, o dicho de otra manera, cuando se requiere *romper* con la iteración actual.
 
+:-------------------------------------------------------------------------------
 
-:----------
+### Flujo alterno - break (ejemplo)
 
-### Ramificaciones - Break (Ejemplo)
-
-``` java
+```java
 for(int i = 0; i < 10 ; i++) {
 	System.out.println( i );
 	if( i == 5)
@@ -264,11 +337,28 @@ for(int i = 0; i < 10 ; i++) {
 
 //El for se detendrá cuando i sea igual a 5, dado que //existe un condicional el cual si es verdadero se //ejecuta una instrucción break
 
+:-------------------------------------------------------------------------------
 
-### Ramificaciones - CONTINUE
+### Flujo alterno - continue
 
 Es utilizada cuando solamente queremos dejar la iteración actual del ciclo y pasar a la siguiente itereación.
 
 La iteración, es decir, las tareas dentro de ese bloque de código no necesitan estar completas antes de generar un `continue`.
 
-:----------
+:-------------------------------------------------------------------------------
+
+### Flujo alterno - continue (ejemplo)
+
+```java
+  for(int i = 0; i<10 ; i++) {
+    if( i == 5)
+      continue;
+
+    //Cuando i sea igual a 5 no se imprimirá el valor de i en la consola
+    System.out.println( i );
+  }
+```
+
+:-------------------------------------------------------------------------------
+
+### Ejercicios

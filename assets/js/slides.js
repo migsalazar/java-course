@@ -1,4 +1,15 @@
 $(function(){
+
+  var _applyBigSintax = function() {
+    var $preList = $('pre');
+    $preList.each(function(){
+      var $pre = $(this);
+      if ($pre.prev().hasClass('import-bs')) {
+          $pre.addClass('big-sintax');
+      }
+    });
+  };
+
   var
     revealConfig = {
       controls: true,
@@ -27,7 +38,7 @@ $(function(){
       dependencies: [
           { src: '../assets/revealjs/plugin/markdown/marked.js', async: false, condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
           { src: '../assets/revealjs/plugin/markdown/markdown.js', async: false, condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-          { src: '../assets/revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: '../assets/revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); _applyBigSintax(); } },
           { src: '../assets/revealjs/plugin/zoom-js/zoom.js', async: true },
           { src: '../assets/revealjs/plugin/menu/menu.js', async: true }
       ]

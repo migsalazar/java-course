@@ -9,7 +9,7 @@ Los identificadores siguen las siguientes reglas:
 -  No se puede usar una **palabra reservada** de Java para denotar un identificador.
 -  Java es sensible a mayúsculas y minúsculas.
 
-:----------
+:-------------------------------------------------------------------------------
 
 ### Reglas
 
@@ -21,7 +21,7 @@ Ejemplos no válidos
 
 `2numero`  `/variable`  `%total`
 
-:----------
+:-------------------------------------------------------------------------------
 
 ### Tipado
 
@@ -29,7 +29,7 @@ Java es un lenguaje de **tipado fuerte**, lo cual significa que no se permiten v
 
 Es decir, dado el valor de una variable de un tipo en concreto, no se podrá usar el valor de dicha variable como otro tipo.
 
-:----------
+:-------------------------------------------------------------------------------
 
 ### Tipos de datos
 
@@ -38,7 +38,7 @@ Es decir, dado el valor de una variable de un tipo en concreto, no se podrá usa
 - Caracter
 - Booleano
 
-:----------
+:-------------------------------------------------------------------------------
 
 ### Tipos de datos - Enteros
 
@@ -49,7 +49,7 @@ Es decir, dado el valor de una variable de un tipo en concreto, no se podrá usa
 | int           | 4               | -2147483648 a 2147483647 |
 | long          | 8               | -9223372036854775808 a 9223372036854775807 |
 
-:----------
+:-------------------------------------------------------------------------------
 
 ### Tipos de datos - Punto flotante
 
@@ -58,7 +58,7 @@ Es decir, dado el valor de una variable de un tipo en concreto, no se podrá usa
 | float         | 4               | ± 3.4x10-38 a ± 3.4x1038    |
 | double        | 5               | ± 1.8x10-308 a ± 1.8x10308  |
 
-:----------
+:-------------------------------------------------------------------------------
 
 ### Tipos de datos - Caracter
 
@@ -66,7 +66,7 @@ El tipo de datos especializado en caracteres es el `char`.
 
 Java utiliza el código *Unicode* de 16 bits a diferencia de la mayor parte de lenguajes clásicos, como tal es el caso de C y C++, que utilizan *ASCII* de 8 bits.
 
-:----------
+:-------------------------------------------------------------------------------
 
 ### Tipos de datos - Boleano
 

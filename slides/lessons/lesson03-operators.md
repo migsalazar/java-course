@@ -8,7 +8,7 @@
 | División          | `/`         |
 | Módulo / Residuo  | `%`         |
 
-:----------
+:-------------------------------------------------------------------------------
 
 ### Precendecia
 
@@ -17,7 +17,7 @@
 | `*` `/` `%` | Multiplicación, Divisón, Módulo | Se evalua primero. De izquierda a derecha           |
 | `+` `-`     | Suma, Resta                     | Se evalúan en segundo lugar. De izquierda a derecha |
 
-:----------
+:-------------------------------------------------------------------------------
 
 ### Asignación
 
@@ -29,7 +29,7 @@ El mismo operador de igualdad, para el caso anterior, también podría escribirs
 
 `a += b;`
 
-:----------
+:-------------------------------------------------------------------------------
 
 `a += b`:	Suma **a** y **b** y guarda el resultado en **a**
 
@@ -41,7 +41,7 @@ El mismo operador de igualdad, para el caso anterior, también podría escribirs
 
 `a %= b`:	Se divide la variable **a** entre la variable **b** y se guarda el residuo en **a**
 
-:----------
+:-------------------------------------------------------------------------------
 
 ### Operadores - Incremento y decremento
 
@@ -51,7 +51,7 @@ Pre-incremento: Incrementa en uno la variable y después se valida el valor: ++v
 
 Post-incremento: Valida el valor almacenado en la variable y después lo incrementa en uno: v++.
 
-:----------
+:-------------------------------------------------------------------------------
 
 ```java
 int v, n;
@@ -70,7 +70,7 @@ n = v--; //n = ? , v = ?
  //*Primero se asigna el valor de v en n y luego se decremento en uno v");
 ```
 
-:----------
+:-------------------------------------------------------------------------------
 
 ### Operadores - Relacionales
 
@@ -85,7 +85,7 @@ Los operadores relacionales nos sirven para comparar dos variables y así dererm
 | `<=`          | menor igual que |
 | `>=`          | mayor igual que |
 
-:----------
+:-------------------------------------------------------------------------------
 
 ```java
 int a, b;
@@ -107,7 +107,7 @@ validacion = a <= b; // validacion =  true
 validacion = a >= b; // validacion = false
 ```
 
-:----------
+:-------------------------------------------------------------------------------
 
 ### Operadores - Lógicos
 
@@ -119,7 +119,7 @@ Para trabajar con valores booleanos se requiere de operadores lógicos.
 | `&&`        |	AND | Si ambos true => true; de lo contrario => false	|
 | <code>&#124;&#124;</code> |	Or |	Si alguno true => true. Si ambos false => false	  |
 
-:----------
+:-------------------------------------------------------------------------------
 
 ```java
 boolean a, b, validacion;
@@ -140,6 +140,6 @@ validacion = !(a && b); // validacion =
 validacion = !(a || b); // validacion =
 ```
 
-:----------
+:-------------------------------------------------------------------------------
 
 ### Ejericios

@@ -4,7 +4,7 @@
 <img class="stretch" data-src="img/hello_worl.jpg"/>
 </div>
 
-:----------
+:-------------------------------------------------------------------------------
 
 ### ¿Por qué Java?
 
@@ -20,7 +20,7 @@ Java es un lenguaje de programación de alto nivel y de propósito general carac
 
 *A white paper - James Gosling, Henry McGilton, May 1996*
 
-:----------
+:-------------------------------------------------------------------------------
 
 ### Extensión de archivos
 
@@ -28,7 +28,7 @@ En el lenguaje JAVA, todos los archivos de código fuente que podamos construir 
 
 Todos estos archivos, son compilados en un archivo secundario con extensión `.class` por el compilador **javac**.
 
-:----------
+:-------------------------------------------------------------------------------
 
 ### La Plataforma JAVA
 
@@ -36,7 +36,7 @@ Todos estos archivos, son compilados en un archivo secundario con extensión `.c
 
 - **API (Application Programming Interface)**: La API de Java es un una larga colección de componentes de software
 
-:----------
+:-------------------------------------------------------------------------------
 
 ### Java Virtual Machine
 
@@ -46,7 +46,7 @@ Todos estos archivos, son compilados en un archivo secundario con extensión `.c
 
 Interpreta y ejecuta instrucciones expresadas en un código binario (*bytecode*), generado por el compilador de Java.
 
-:----------
+:-------------------------------------------------------------------------------
 
 ### Application Programming Interface
 

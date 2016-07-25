@@ -32,3 +32,21 @@
   border-radius: 5px;
   font-family: monospace;
 }
+
+.reveal pre.big-sintax {
+  width: 100%;
+  box-shadow: none;
+}
+
+.reveal pre.big-sintax code{
+  border: none;
+  font-size: 1.5em;
+  line-height: 130%;
+  margin-left: 25%;
+}
+
+hr.breakline {
+  margin: 15px;
+  border: 0;
+  border-bottom: 1px dashed #7F7F7F;
+}
