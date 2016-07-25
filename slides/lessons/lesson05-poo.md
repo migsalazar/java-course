@@ -30,17 +30,19 @@ Todo esto se podrá utilizar a través de un objeto.
 
 ```java
 class NombreClase {
-      //declaración de propiedades y métodos
+
 }
 ```
 
 <hr class="breakline">
 
+<div class="import-bs"></div>
+
 ```java
-  modificadorDeAcceso class NombreClase {
-    //properties
-    //methods
-  }
+modificadorDeAcceso class NombreClase {
+  //properties
+  //methods
+}
 ```
 
 :-------------------------------------------------------------------------------
@@ -55,11 +57,15 @@ En general, decimos que un objeto es la instancia de una clase.
 
 ### Objetos (sintaxis)
 
+<div class="import-bs"></div>
+
 ```java
   NombreDeClase objeto = new NombreDeClase();
 ```
 
 <hr class="breakline">
+
+<div class="import-bs"></div>
 
 ```java
 NombreDeClase objeto = new NombreDeClase(param1, param2, …, paramN);
@@ -85,6 +91,8 @@ Las propiedades (variables o atributos) de una clase, proveen al objeto (instanc
 
 ### Propiedades (sintaxis)
 
+<div class="import-bs"></div>
+
 ```java
   modificadorDeAcceso NombreClase {
     modificadorDeAcceso tipo nombre; //propiedad
@@ -106,19 +114,21 @@ Un método es una operación para definir un comportamiento de una clase. Estos 
 <div class="import-bs"></div>
 
 ```java
-  modificadorDeAcceso tipoRetorno nombreDeMetodo()
-  {
-  	//sentences
-  }
+modificadorDeAcceso tipoRetorno nombreDeMetodo()
+{
+	//sentences
+}
 ```
 
 <hr class="breakline">
 
+<div class="import-bs"></div>
+
 ```java
-  modificadorDeAcceso tipoRetorno nombreDeMetodo(param1, param2, …, paramN)
-  {
-    //sentences
-  }
+modificadorDeAcceso tipoRetorno nombreDeMetodo(param1, param2, …, paramN)
+{
+  //sentences
+}
 ```
 
 Al igual que las propiedades, los métodos pueden invocarse medinate un punto: `objeto.metodo()`;
@@ -149,15 +159,18 @@ Los modificadores de acceso determinan que otras clases pueden usar una propieda
 <hr class="breakline">
 
 ```java
-  public static void main(String[] args) {
-    Libro miLibro = new Libro();
-    Libro tuLibro = new Libro();
+public static void main(String[] args) {
+  Libro miLibro = new Libro();
+  Libro tuLibro = new Libro();
 
-    miLibro.nombre = "Cómo programar en JAVA";
-    tuLibro.nombre = "Como programar en Scala";
+  miLibro.nombre = "Cómo programar en JAVA";
+  tuLibro.nombre = "Como programar en Scala";
 
-    System.out.println("Te presto el libro de " + miLibro.nombre + ", y tu me prestas el de " + tuLibro.nombre);
-  }
+  System.out.println("Te presto el libro de "
+    + miLibro.nombre
+    + ", y tu me prestas el de "
+    + tuLibro.nombre);
+}
 ```
 
 :-------------------------------------------------------------------------------
