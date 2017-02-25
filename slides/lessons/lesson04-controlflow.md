@@ -345,7 +345,7 @@ La iteración, es decir, las tareas dentro de ese bloque de código no necesitan
 
 ### Ejercicio
 
-No. 1: Sumar los enteros impares entre 1 y 99, utilizando una instrucción `for`.
+Sumar los enteros impares entre 1 y 99, utilizando una instrucción `for`.
 
 :-------------------------------------------------------------------------------
 
