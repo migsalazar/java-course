@@ -343,4 +343,12 @@ La iteración, es decir, las tareas dentro de ese bloque de código no necesitan
 
 :-------------------------------------------------------------------------------
 
-### Ejercicios
+### Ejercicio
+
+No. 1: Sumar los enteros impares entre 1 y 99, utilizando una instrucción `for`.
+
+:-------------------------------------------------------------------------------
+
+### Ejercicio
+
+Generar N cantidad de peticiones *“Ingrese un número: ”* (pidiendo con anticipación la cantidad de peticiones de numeros a ingresar) e identificar cuantos son positivos y cuantos son negativos. Utilice el ciclo `for`.
