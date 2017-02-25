@@ -45,11 +45,11 @@ El mismo operador de igualdad, para el caso anterior, también podría escribirs
 
 ### Operadores - Incremento y decremento
 
-Los operadores de incremento (++) y decremento (--) son utilizados para **aumentar** o **disminuir** en uno el valor de una variable.
+Los operadores de incremento `++` y decremento `--` son utilizados para **aumentar** o **disminuir** en uno el valor de una variable.
 
-Pre-incremento: Incrementa en uno la variable y después se valida el valor: ++v.
+Pre-incremento: Incrementa en uno la variable y después se valida el valor: `++v`.
 
-Post-incremento: Valida el valor almacenado en la variable y después lo incrementa en uno: v++.
+Post-incremento: Valida el valor almacenado en la variable y después lo incrementa en uno: `v++`.
 
 :-------------------------------------------------------------------------------
 
@@ -143,3 +143,16 @@ validacion = !(a || b); // validacion =
 :-------------------------------------------------------------------------------
 
 ### Ejercicios
+
+Escriba un programa completo para realizar cada una de las siguientes tareas:
+- Indicar que un pograma calculará el producto de tres enteros.
+- Crear un objeto Scanner que lea valores de la entrada estándar
+- Decalrar las variables x, y, z y resultado de tipo int.
+- Pedir al usuario que escriba el primer entero.
+- Leer el primer entero del usuario y almacenarlo en la variable x.
+- Pedir al usuario que escriba el segundo entero.
+- Leer el segundo entero del usuario y almacenarlo en la variable y.
+- Pedir al usuario que escriba el tercer entero.
+- Leer el tercer entero del usuario y almacenarlo en la variable z.
+- Calcular el producto de los tres enteros contenidos en las variables x, y y z, y asignar el resultado a la variable resultado.
+- Mostrar el mensaje “El producto es: ” seguido del valor de la variable resultado.

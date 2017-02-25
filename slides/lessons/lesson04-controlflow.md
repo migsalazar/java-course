@@ -319,8 +319,6 @@ for(int i = 0; i < 10 ; i++) {
 //se ejecuta una instrucción break
 ```
 
-
-
 :-------------------------------------------------------------------------------
 
 ### Flujo alterno - continue
